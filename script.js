@@ -79,12 +79,12 @@ function respostaSelecionada(opcaoSelecionada) {
     historiaFinal += afirmacoes + " ";
     atual++
     mostraPergunta();
+    function aleatorio(lista) {
+    const posicao = Math.random()* lista.length;
+}
 }
 function mostraResultado(){
     caixaPerguntas.textContent = "Olha só o que podemos afirmar sobre você...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
-}
-function aleatorio(lista) {
-
 }
