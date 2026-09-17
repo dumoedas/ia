@@ -57,7 +57,7 @@ let perguntaAtual;
 let historiaFinal = "";
 
 function mostraPergunta(){
-    if(atual >= perguntas.length){
+    if(atual >= perguntas.length)ale
         mostraResultado();
         return;
     }
@@ -75,7 +75,7 @@ function mostraPergunta(){
 
 }
 function respostaSelecionada(opcaoSelecionada) {
-    const afirmacoes = opcaoSelecionada.afirmacao;
+    const afirmacoes = aleatorio(opcaoSelecionada.afirmacao);
     historiaFinal += afirmacoes + " ";
     atual++
     mostraPergunta();
