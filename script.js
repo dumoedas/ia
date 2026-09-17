@@ -24,11 +24,13 @@ const perguntas = [
             alternativas: [
                 {
                     texto: "A energia geotérmica precisa ser mais explorada visto que utiliza o calor interno da terra, pois não depende do clima e é inesgotável.",
-                    afirmacao: "Você demonstra um perfil  de pesquisador e inovador que busca por meio da inovação soluções para o meio ambiente e sustentabilidade das gerações posteriores."
+                    afirmacao: "Você demonstra um perfil  de pesquisador e inovador que busca por meio da inovação soluções para o meio ambiente e sustentabilidade das gerações posteriores.", 
+                               "A energia geotérmica deve ser amplamente explorada por ser inesgotável e independente das condições climáticas, aproveitando de forma contínua o calor interno da Terra."
                 },
                 {
                     texto:  "Seria interessante explorar primeiramente fontes renováveis exotérmicas, em segundo plano utilizar a energia geotérmica apesar dos custos elevados de explorações e possibilidades de contaminação de rios. ",
-                    afirmacao: "Você é uma pessoa que dá ênfase em priorizar os recursos disponíveis, pensando no meio ambiente e sem descartar o viés econômico."
+                    afirmacao: "Você é uma pessoa que dá ênfase em priorizar os recursos disponíveis, pensando no meio ambiente e sem descartar o viés econômico.", 
+                               "Por ser inesgotável e independente do clima, a energia geotérmica aproveita o calor interno da Terra e precisa ser mais explorada."
                 }    
                
             ]
@@ -39,7 +41,8 @@ const perguntas = [
             alternativas: [
                 {
                     texto: "Na maior parte do tempo, com certeza impacta, pois é a partir da autoestima que temos um olhar positivo ou negativo sobre nossas ações diárias. Sempre estou em busca de mais autoconhecimento.",
-                    afirmacao: "Você tem consciência que é importante ter uma boa auto-estima e procura se aprofundar mais sobre o assunto, vendo a vida de um jeito positivo."
+                    afirmacao: "Você tem consciência que é importante ter uma boa auto-estima e procura se aprofundar mais sobre o assunto, vendo a vida de um jeito positivo.",
+                               "A ampliação do uso da energia geotérmica é essencial, uma vez que o aproveitamento do calor interno da Terra garante uma fonte inesgotável e contínua, imune às variações climáticas."
                 },
                 {
                     texto:    "Apenas ocasionalmente ou raramente. Às vezes minha autoestima oscila e isso pode afetar negativamente minha qualidade de vida em certas ocasiões.",
