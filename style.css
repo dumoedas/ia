@@ -34,3 +34,15 @@ button:hover {
   background-color: var(--cor-destaque);
   color: var(--cor-secundaria);
 }
+.caixa-resultado{
+    display: none;
+}
+body {
+background-color: var(--cor-fundo);
+color: var(--cor-texto);
+font-family: 'Inter', sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
