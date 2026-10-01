@@ -1,8 +1,3 @@
-const caixaPrincipal = document.querySelector(".caixa-principal");
-const caixaPerguntas = document.querySelector(".caixa-perguntas");
-const caixaAlternativas = document.querySelector(".caixa-alternativas");
-const caixaResultado = document.querySelector(".caixa-resultado");
-const textoResultado = document.querySelector(".texto-resultado");
 const perguntas = [
     {
         enunciado: "O cyberbullying é a violência virtual que ocorre geralmente com as pessoas tímidas e indefesas, ou simplesmente por não caírem na simpatia das mesmas. Como podemos evitá-lo",
@@ -51,40 +46,3 @@ const perguntas = [
                
             ]
         },
-]
-let atual = 0;
-let perguntaAtual;
-let historiaFinal = "";
-
-function mostraPergunta(){
-    if(atual >= perguntas.length)ale
-        mostraResultado();
-        return;
-    }
-    perguntaAtual = perguntas[atual];
-    caixaPerguntas.textContent = perguntaAtual.enunciado;
-    caixaAlternativas.textContent = "";
-    mostraAlternativas();
-}function mostraAlternativas(){
-    for(const alternativa of perguntaAtual.alternativas){
-        const botaoAlternativas = document.createElement("button");
-        botaoAlternativas.textContent = alternativa.texto;
-        botaoAlternativas.addEventListener("click", () => respostaSelecionada(alternativa));
-        caixaAlternativas.appendChild(botaoAlternativas);
-    }
-
-}
-function respostaSelecionada(opcaoSelecionada) {
-    const afirmacoes = aleatorio(opcaoSelecionada.afirmacao);
-    historiaFinal += afirmacoes + " ";
-    atual++
-    mostraPergunta();
-    function aleatorio(lista) {
-    const posicao = Math.random()* lista.length;
-}
-}
-function mostraResultado(){
-    caixaPerguntas.textContent = "Olha só o que podemos afirmar sobre você...";
-    textoResultado.textContent = historiaFinal;
-    caixaAlternativas.textContent = "";
-}
